@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="KGk-i7-Jjw" customClass="EIMessageListCell">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="77.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="77"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="古元庆向你发送的2张图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEc-Wv-NuR">
+                        <rect key="frame" x="70" y="16" width="150" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="8gx-G7-zRR"/>
+                            <constraint firstAttribute="height" constant="21" id="V3z-RL-Ejq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.16470588235294117" green="0.16862745098039217" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" red="0.16470588235294117" green="0.16862745098039217" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyv-aZ-GJY">
+                        <rect key="frame" x="294" y="27" width="22" height="22"/>
+                        <color key="backgroundColor" red="1" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="83E-KS-HqJ"/>
+                            <constraint firstAttribute="width" constant="22" id="JJg-wR-vtG"/>
+                        </constraints>
+                        <state key="normal" title="1"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jgp-ND-in6" customClass="dottedImageView">
+                        <rect key="frame" x="20" y="75" width="296" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ZOR-zO-LeH"/>
+                            <constraint firstAttribute="height" constant="1" id="nLz-vT-ALJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZOR-zO-LeH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qr-Np-yHY">
+                        <rect key="frame" x="70" y="41" width="50" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="3ck-Vx-wbP"/>
+                            <constraint firstAttribute="width" constant="50" id="eSb-9T-gCf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                        <state key="normal" image="IconLocation">
+                            <color key="titleColor" red="0.60784313725490191" green="0.61960784313725492" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gX-jL-0zE" customClass="EIAvatarView">
+                        <rect key="frame" x="20" y="16" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="6Yt-8E-XvL"/>
+                            <constraint firstAttribute="width" constant="44" id="M2G-Fb-oJ7"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SxL-jU-WBj">
+                        <rect key="frame" x="227" y="20" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="2kJ-VQ-hSH"/>
+                            <constraint firstAttribute="width" constant="12" id="tkh-NC-eop"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxC-4e-aNZ">
+                        <rect key="frame" x="145" y="41" width="50" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="1nD-lR-Rpi"/>
+                            <constraint firstAttribute="height" constant="14" id="Ina-3a-YMk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="titleEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="4" maxY="0.0"/>
+                        <state key="normal" image="IconTime">
+                            <color key="titleColor" red="0.60784313725490191" green="0.61960784313725492" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fEc-Wv-NuR" firstAttribute="leading" secondItem="4gX-jL-0zE" secondAttribute="trailing" constant="6" id="2wP-BU-jw1"/>
+                    <constraint firstItem="SxL-jU-WBj" firstAttribute="centerY" secondItem="fEc-Wv-NuR" secondAttribute="centerY" id="5ol-49-WYw"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Jgp-ND-in6" secondAttribute="bottom" constant="-7" id="8iV-hv-r6E"/>
+                    <constraint firstItem="MxC-4e-aNZ" firstAttribute="top" secondItem="0Qr-Np-yHY" secondAttribute="top" id="8xu-qy-baJ"/>
+                    <constraint firstItem="MxC-4e-aNZ" firstAttribute="leading" secondItem="0Qr-Np-yHY" secondAttribute="trailing" constant="25" id="Hka-qu-tXr"/>
+                    <constraint firstItem="Jgp-ND-in6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="IUD-lO-Iua"/>
+                    <constraint firstItem="SxL-jU-WBj" firstAttribute="leading" secondItem="fEc-Wv-NuR" secondAttribute="trailing" constant="7" id="Ky3-kY-3a5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kyv-aZ-GJY" secondAttribute="trailing" constant="12" id="NPp-7N-3zV"/>
+                    <constraint firstItem="kyv-aZ-GJY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YJv-PW-Jga"/>
+                    <constraint firstItem="4gX-jL-0zE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="Z5D-kX-G9i"/>
+                    <constraint firstItem="4gX-jL-0zE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZtC-Zm-Dgz"/>
+                    <constraint firstItem="0Qr-Np-yHY" firstAttribute="top" secondItem="fEc-Wv-NuR" secondAttribute="bottom" constant="4" id="afV-Pg-3Kz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Jgp-ND-in6" secondAttribute="trailing" constant="12" id="dmI-hK-gmX"/>
+                    <constraint firstItem="fEc-Wv-NuR" firstAttribute="top" secondItem="4gX-jL-0zE" secondAttribute="top" id="omt-Zd-CJF"/>
+                    <constraint firstItem="0Qr-Np-yHY" firstAttribute="leading" secondItem="4gX-jL-0zE" secondAttribute="trailing" constant="6" id="or7-tI-IuR"/>
+                    <constraint firstItem="4gX-jL-0zE" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="sLc-ov-1Gd"/>
+                    <constraint firstItem="kyv-aZ-GJY" firstAttribute="leading" secondItem="fEc-Wv-NuR" secondAttribute="trailing" constant="5" id="xUb-gb-PaC"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="sLc-ov-1Gd"/>
+                        <exclude reference="xUb-gb-PaC"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatorImageView" destination="4gX-jL-0zE" id="2Tm-eF-H5c"/>
+                <outlet property="locationButton" destination="0Qr-Np-yHY" id="JDZ-Oj-PxW"/>
+                <outlet property="locationButtonWidth" destination="eSb-9T-gCf" id="Sq3-k4-z0r"/>
+                <outlet property="messageNumberButton" destination="kyv-aZ-GJY" id="dc5-1S-ZaI"/>
+                <outlet property="nameLabel" destination="fEc-Wv-NuR" id="tOD-uR-Xmw"/>
+                <outlet property="nameLabelWidth" destination="8gx-G7-zRR" id="dAz-Ss-Z4T"/>
+                <outlet property="sexImage" destination="SxL-jU-WBj" id="BDR-qO-mbM"/>
+                <outlet property="timeButton" destination="MxC-4e-aNZ" id="ndd-XC-pWS"/>
+                <outlet property="timeButtonWidth" destination="1nD-lR-Rpi" id="ZK6-2J-Ojj"/>
+            </connections>
+            <point key="canvasLocation" x="129" y="287.75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IconLocation" width="7" height="9"/>
+        <image name="IconTime" width="8" height="8"/>
+    </resources>
+</document>

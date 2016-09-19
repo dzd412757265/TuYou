@@ -1,0 +1,97 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HappyDNS (0.3.9)
+  - JSONModel (1.3.0)
+  - MJRefresh (3.1.12)
+  - Qiniu (7.0.20):
+    - AFNetworking (~> 2.0)
+    - HappyDNS (~> 0.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RongCloudIMLib (2.4.11)
+  - SensorsAnalyticsSDK (1.5.7)
+  - SVProgressHUD (2.0.3)
+  - TTTAttributedLabel (1.10.1)
+  - UMengAnalytics-NO-IDFA (4.0.5)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.1)
+  - BlocksKit
+  - FMDB (~> 2.5)
+  - JSONModel
+  - MJRefresh
+  - Qiniu (~> 7.0)
+  - ReactiveCocoa (~> 2.5)
+  - RongCloudIMLib (~> 2.4.10)
+  - SensorsAnalyticsSDK
+  - SVProgressHUD
+  - TTTAttributedLabel (= 1.10.1)
+  - UMengAnalytics-NO-IDFA
+  - XAspect (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HappyDNS: 17be04178df2dd09f0ee6ac33628589b7f9910e8
+  JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Qiniu: 8958e70c02fb563c8c04d555bb5041441c5f4216
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RongCloudIMLib: c0b79fc4e60f1f4970a903c1128f0a81276ef64e
+  SensorsAnalyticsSDK: 3406a0212c0c693aee33004103d30786f204ddc5
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TTTAttributedLabel: c8f3801a6463b9c9b82b0c84c465fdda9751892a
+  UMengAnalytics-NO-IDFA: 965a219b05475ff2a4c09a164139a27bbaa0e25b
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+
+COCOAPODS: 0.39.0

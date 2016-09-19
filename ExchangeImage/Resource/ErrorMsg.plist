@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>40007</key>
+	<string>别闹,这张图之前已经发过了</string>
+	<key>40006</key>
+	<string>无效内容（可能含敏感词）</string>
+	<key>40005</key>
+	<string>参数不能为空</string>
+	<key>40004</key>
+	<string>已在其它设备上登录</string>
+	<key>40003</key>
+	<string>用户不存在</string>
+	<key>40002</key>
+	<string>参数缺失</string>
+	<key>40001</key>
+	<string>无效的签名</string>
+</dict>
+</plist>
